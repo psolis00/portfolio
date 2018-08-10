@@ -1,0 +1,82 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Arimo', sans-serif;
+}
+html, body{
+    height: 100%;
+}
+
+h1{
+    font-size:60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size:30px;
+}
+
+.main{
+    text-align: center;
+    min-height: 100%;
+    vertical-align: middle;
+}
+
+.main h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid gray;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main a:hover{
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+.about{
+    text-align: center;
+    min-height: 100%;
+    vertical-align: middle;
+}
+
+.projects{
+    text-align: center;
+    min-height: 100%;
+    vertical-align: middle;
+}
+
+img{
+    opacity: .5;
+    height: auto;
+}
+
+.work{
+    position:relative;
+    min-height:100%;
+}
+
+
+.apple{
+    position:absolute;
+    top:0px;
+    min-height:100%;
+}
+

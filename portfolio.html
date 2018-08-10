@@ -8,11 +8,22 @@
         <link rel="stylesheet" type="text/css" href="portfolio.css">
         <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
         <script src="portfolio.js"></script>
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
-    <body class="container">
+
+    <body>
+        <div class="nav" id="nav" id="sideMenu">
+            <a>Welcome</a>
+            <a>About Me</a>  
+            <a>Projects</a>  
+            <a>Work History</a>
+            <a>Contact Me</a>
+        </div>
+        <img class="navIcon" src="images/menu.png" onclick="show_nav()">
         <div class="main" id="main">
             <h1>Hello!<br>My name is Patrick Solis<br>I made this</h1>
-            <a onclick="scrollToAbout"> V </a>
+            <a onclick="scroll_to_div('about')"> V </a>
         </div>
 
         <div class="about" id="about">
@@ -26,7 +37,6 @@
 
         <h1>Work History</h1>
         <div class="work">
-            <img src="images/applestore.jpg">
             <div class="apple">
                 <h2>Apple,</h2>
                 <hr>

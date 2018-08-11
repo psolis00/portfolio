@@ -8,15 +8,10 @@ function scroll_to_div(div_id)
     'slow');
 }
 
-var show = 0;
 function show_nav(){
-    if(show == 0)
-    {
-        document.getElementById("nav").style.width = "20%";
-        show = 1;
-    }
-    else{
-        document.getElementById("nav").style.width = "0px";
-        show = 0;
-    }
+    document.getElementById("nav").style.width = "20%";
+}
+
+function hide_nav(){
+    document.getElementById("nav").style.width = "0%";
 }

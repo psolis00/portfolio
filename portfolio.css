@@ -23,7 +23,7 @@ hr{
     margin-top:10px;
     margin-bottom:10px;
     max-width: 50%;
-    align:center;
+    margin-left:25%;
 }
 
 .navIcon{
@@ -52,26 +52,25 @@ hr{
     padding-top:15%;
 }
 
-.nav a{
+.nav h2{
     padding: 8px 8px 8px 32px;
     text-align:center;
-    font-size: 30px;
     color: #f1f1f1;
     text-overflow: hidden;
 }
 
-.nav a:hover {
+.nav h2:hover {
     color: #818181;
 }
 
-.nav h2{
+.nav h3{
     color: #f1f1f1;
     top: 2.5%;
     left:10%;
     position:absolute;
 }
 
-.nav h2:hover{
+.nav h3:hover{
     color: #818181;
 }
 
@@ -90,7 +89,7 @@ hr{
     transform: translate(-50%, -50%);
 }
 
-.main a{
+.main h2{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -101,12 +100,11 @@ hr{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color:white;
-    font-size:30px;
     font-weight:bolder;
     border-radius:5px;
 }
 
-.main a:hover{
+.main h2:hover{
     background-color:  rgb(2, 89, 204);
     color: white;
     border-radius: 5px;

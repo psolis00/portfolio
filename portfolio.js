@@ -15,3 +15,4 @@ function show_nav(){
 function hide_nav(){
     document.getElementById("nav").style.width = "0%";
 }
+

@@ -3,7 +3,7 @@
     margin:0px;
     font-family: 'Oswald', sans-serif;
 }
-html, body{
+html, body, .container{
     height: 100%;
 }
 
@@ -25,7 +25,6 @@ hr{
     max-width: 50%;
     align:center;
 }
-
 
 .navIcon{
     height: 30px;
@@ -55,12 +54,9 @@ hr{
 
 .nav a{
     padding: 8px 8px 8px 32px;
-    text-decoration: none;
     text-align:center;
     font-size: 30px;
     color: #f1f1f1;
-    display: block;
-    transition: 0.1s;
     text-overflow: hidden;
 }
 
@@ -69,14 +65,14 @@ hr{
 }
 
 .nav h2{
-    color: #818181;
+    color: #f1f1f1;
     top: 2.5%;
     left:10%;
     position:absolute;
 }
 
 .nav h2:hover{
-    color: #f1f1f1;
+    color: #818181;
 }
 
 .main{
@@ -120,7 +116,9 @@ hr{
     padding-top:2.5%;
     text-align: center;
     min-height: 100%;
+    height:100%;
     vertical-align: middle;
+    position:relative;
 }
 
 .projects{

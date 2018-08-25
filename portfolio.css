@@ -9,14 +9,17 @@ html, body, .container{
 
 h1{
     font-size:60px;
+    text-shadow:2px 2px gray;
 }
 
 h2{
     font-size: 40px;
+    text-shadow:2px 2px gray;
 }
 
 h3{
     font-size:30px;
+    text-shadow:2px 2px gray;
 }
 
 hr{
@@ -28,7 +31,7 @@ hr{
 
 .navIcon{
     height: 30px;
-    left: 95%;
+    right: 5%;
     top: 5%;
     position: fixed;
     opacity:.5;
@@ -40,26 +43,30 @@ hr{
 
 .nav{
     background-color: rgb(2, 89, 204);
-    height: 100%;
-    width: 0;
+    min-height: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
     overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s; 
-    padding-top:15%;
+    transition: 0.5s;
 }
 
-.nav h2{
-    padding: 8px 8px 8px 32px;
-    text-align:center;
+.options{
+    position:absolute;
+    top:50%;
+    left:10%;
+    transform: translate(0%,-56%);
+}
+
+.nav .options h2{
     color: #f1f1f1;
-    text-overflow: hidden;
+    width:100%;
+    position:relative;
+    margin-top:75%;
 }
 
-.nav h2:hover {
+.nav .options h2:hover {
     color: #818181;
 }
 
@@ -68,6 +75,7 @@ hr{
     top: 2.5%;
     left:10%;
     position:absolute;
+    z-index:1;
 }
 
 .nav h3:hover{
@@ -83,7 +91,6 @@ hr{
 }
 
 .main h1{
-    margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -120,6 +127,7 @@ hr{
 
 .about img{
     width:100%;
+    box-shadow: 2px 2px #818181;
 }
 
 .recentwork{
@@ -132,6 +140,10 @@ hr{
 
 .project{
     padding-top: 10px;
+}
+
+.project img{
+    width:100%;
 }
 
 .project h3{

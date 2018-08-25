@@ -14,13 +14,19 @@
     </head>
 
     <body>
-        <div class="nav" id="nav" id="sideMenu">
-            <h3 onclick="hide_nav()">X</h3>
-            <h2 onclick="scroll_to_div('main')">Welcome</h2>
-            <h2 onclick="scroll_to_div('about')">About Me</h2> 
-            <h2 onclick="scroll_to_div('recentwork')">Recent Work</h2>  
-            <h2 onclick="scroll_to_div('work')">Work History</h2>
-            <h2 onclick="scroll_to_div('contact')">Contact Me</h2>
+        <div class="nav" id="nav">
+            <h3 onclick="hide_nav()">x</h3>
+            <div class="options">
+                <h2 onclick="scroll_to_div('main')">Welcome</h2>
+                <br>
+                <h2 onclick="scroll_to_div('about')">About Me</h2> 
+                <br>
+                <h2 onclick="scroll_to_div('recentwork')">Recent Work</h2>
+                <br>
+                <h2 onclick="scroll_to_div('work')">Work History</h2>
+                <br>
+                <h2 onclick="scroll_to_div('contact')">Contact Me</h2>
+            </div>
         </div>
 
         <img class="navIcon" src="images/menu.png" onclick="show_nav()">
@@ -39,7 +45,7 @@
                 <img src="images/sjsu.jpg">
                 <h3>I am a graduate from San Jose State University</h3>
                 <h3>I spent my time there learning about Computer Science</h3>
-                <h3></h3>
+                <span class="icon-bar"></span>
             </div>
         </div>
         
@@ -49,29 +55,31 @@
                 
                 <div class="project">
                     <h2>iOS Calculator Clone</h2>
-                    <hr>
                     <h2>May 2018</h2>
+                    <hr>
+                    <img src="images/projectiOSCalc.png">
                     <h3>I recreated the iOS Calculator found on all iPhones. It was my first take in learning how to use Swift and Xcode</h3>
                 </div>
 
                 <div class="project">
                     <h2>Django Full Stack</h2>
-                    <hr>
                     <h2>February 2018 - April 2018</h2>
+                    <hr>
                     <h3>Paid money to learn</h3>
                 </div>
 
                 <div class="project">
                     <h2>Electronic Ticket Exchange Service</h2>
-                    <hr>
                     <h2>February 2017 - May 2017</h2>
+                    <hr>
+                    <img src="images/projectHTMLETES.png">
                     <h3>Learned HTML for the first time</h3>
                 </div>
 
                 <div class="project">
                     <h2>BRCA-1 Pairwise Alignment</h2>
-                    <hr>
                     <h2>October 2016 - November 2016</h2>
+                    <hr>
                     <h3>Implemented algos</h3>
                 </div>
             </div>

@@ -6,10 +6,20 @@ function scroll_to_div(div_id)
         scrollTop: $("#"+div_id).offset().top
     },
     'slow');
+    if(window.innerWidth <= 768)
+    {
+        hide_nav();
+    }
 }
 
 function show_nav(){
-    document.getElementById("nav").style.width = "20%";
+    if(window.innerWidth <= 768)
+    {
+        document.getElementById("nav").style.width = "100%";
+    }
+    else{
+        document.getElementById("nav").style.width = "20%";
+    }
 }
 
 function hide_nav(){
